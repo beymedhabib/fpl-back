@@ -3,7 +3,8 @@ const jsonparser = require("body-parser");
 const db = require("./db/database");
 const auth = require("./Api/authApi");
 const user = require("./Api/userApi");
-// const passport = require("./api/passport")
+const passport = require("./passport");
+const votelimite = require('./votelimite')
 
 const http = require('http');
 const path = require('path')
